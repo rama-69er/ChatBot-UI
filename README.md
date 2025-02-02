@@ -1,4 +1,4 @@
-# Can only run on a local machine (on a laptop/pc) because it uses the LOCAL STORAGE to store the login credientials of the user... ( !Important )
+# Can only run on a local machine (on a laptop/pc) because it uses the LOCAL STORAGE to store the login credientials of the user... ( ! Important )
 
 # ChatBot Integration Project . . .
 
