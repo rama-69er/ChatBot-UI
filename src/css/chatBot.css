@@ -31,3 +31,9 @@ textarea {
   border: transparent;
   margin: 0.5rem 0;
 }
+
+@media (max-width: 768px) {
+  .chatbot-mainPage {
+    flex-direction: column;
+  }
+}
