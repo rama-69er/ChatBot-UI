@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+body {
+  font-family: sans-serif;
+  color: #333;
+  background-color: lightgrey;
+}
+
+.steps {
+  width: 600px;
+  background-color: #f7f7f7;
+  border-radius: 7px;
+  padding: 25px 100px;
+  margin: 100px auto;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers > div {
+  height: 40px;
+  aspect-ratio: 1;
+  background-color: #e7e7e7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.numbers .active {
+  background-color: #7950f2;
+  color: #fff;
+}
+
+.message {
+  text-align: center;
+  font-size: 20px;
+  margin: 40px 0;
+  font-weight: bold;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttons button span {
+  font-size: 16px;
+  line-height: 1;
+}
+
+h3 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.close {
+  position: absolute;
+  top: 2rem;
+  right: 25rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 50px;
+  color: inherit;
+  animation-name: spinTwice;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.open {
+  position: absolute;
+  top: 2rem;
+  right: 25rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 50px;
+  color: inherit;
+  animation-name: spinOnce;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes spinOnce {
+  100% {
+    transform: rotateZ(135deg);
+  }
+}
+@keyframes spinTwice {
+  100% {
+    transform: rotateZ(90deg);
+  }
+}
+
+.close:hover {
+  color: red;
+}
+.open:hover {
+  color: rgb(10, 223, 10);
+}

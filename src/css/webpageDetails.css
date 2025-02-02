@@ -1,0 +1,15 @@
+ul {
+  padding: 0;
+}
+
+.webpage-details {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  /* border: 2px solid red; */
+}
+
+

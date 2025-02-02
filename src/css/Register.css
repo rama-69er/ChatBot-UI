@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.register-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

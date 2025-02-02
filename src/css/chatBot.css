@@ -1,0 +1,33 @@
+h2 {
+  text-decoration: underline;
+}
+
+.chatbot-mainPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.chatbot-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+
+}
+
+.chatbot-window {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+textarea {
+  padding: 0.6rem;
+  border: transparent;
+  margin: 0.5rem 0;
+}

@@ -1,0 +1,23 @@
+.dummy-chatbot {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 17rem;
+    height: 17rem;
+    background-color: lightgray;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+    padding: 1rem;
+}
+
+h2{
+    display: flex;
+    align-items:baseline;
+    justify-content: center;
+}
+
+img{
+    height: 15rem;
+    overflow: hidden;
+}
